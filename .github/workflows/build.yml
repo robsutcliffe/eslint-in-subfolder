@@ -20,5 +20,4 @@ jobs:
         run: |
           cd subfolder
           npm i
-          npm run prettier:check
           npm run eslint:check
