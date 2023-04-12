@@ -1,3 +1,3 @@
-const testVar: number = 1;
+const testVar = 1;
 
 console.log(testVar);
