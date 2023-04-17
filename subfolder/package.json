@@ -9,6 +9,24 @@
     "eslint:check": "npx eslint --max-warnings 2 src --ext .js,.jsx,.ts,.tsx",
     "eslint:fix": "npx eslint --fix --max-warnings 2 src --ext .js,.jsx,.ts,.tsx"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
